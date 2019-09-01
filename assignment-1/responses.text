@@ -1,0 +1,22 @@
+How is the web different than the internet?
+
+The internet is a dispersed global network that allows devices with valid internet protocol addresses to connect to each other. The world wide web refers to the millions of digital documents that can be accessed via the internet. These digital documents may contain text documents, audio files, music files, or coded scripts. The internet can be thought of as a system of roads and highways whereas the world wide web can be though of as residential, business, and recreational addresses that the roads and highways allow access to. 
+
+
+Briefly describe how the internet works.
+
+After typing an address into a web browser, the client’s computer sends a request to the client’s internet service provider. The ISP then sends the request down one of the many possible paths to another node, which could be a server or another router. The request continues to travel until it reaches a domain name server (DNS). The DNS searches for matching ip addresses. If a match is found the request will be sent to the requested web server. Once contacted, the web server will break down the requested information into small packets which are sent back to the client’s computer along many different possible paths. These packets include instructions that tell the client’s computer how to reconstruct the requested web page. Once the client receives all the packets, it can piece them back together based on the instructions included with them.
+
+
+What is a directory and what is its relationship to files?
+
+Directories, also known as folders, are places where files are stored in a hierarchal manner. Directories may contain sub-directories to better organize files. For example, the directory pictures could contain the sub-directory 2018 and sub-directory 2019 to better organize picture files by year they were taken.
+
+
+Why is using a VCS beneficial?
+
+The main benefits of using version control software include:
+* Easier collaboration
+* Easier to back-up
+* Clearer history of changes
+By using VCS any individual working on a single project can work simultaneously without worrying about overwriting someone else’s work. The latest iteration of the project is also accessible by all authorized participants all the time which prevents any team member from working on outdated versions or already fixed problems. As everyone works on separate iterations of the project, rather than the master project, team members are free to test their code without worrying that they might break the entire project. The process of submitting and commenting on changes for merge into the master branch VCS creates a clear history of the changes made and why those changes were made. This history is beneficial for back-ups as it is possible to revert to previous builds in case a new feature doesn’t work. 
