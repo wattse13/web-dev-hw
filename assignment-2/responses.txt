@@ -1,0 +1,14 @@
+Briefly describe one way how data travels on the internet.
+When traveling wirelessly, binary data must be converted from a digital signal into a corresponding radio signal. Once the newly transformed radio signal has traveled to the receiving destination, it is converted back into a digital binary signal.
+
+What is the relationship between an IP address and the DNS?
+Internet protocol addresses allow computers to find each other the same way the postal service uses street addresses to deliver mail. When looking for a website, a computer sends a request, with that computer’s own IP address attached, to a domain name system. The DNS checks itself and other sub-servers for the requested domain name and its corresponding IP address. Once found, the DNS sends the requested IP address back to the client computer.
+
+What is a cookie?
+Cookies work like an I.D number. They are given by the web server to the client’s web browser and help the web browser identify individual users and help to save that user’s personal information, such as login data.
+
+List the three basic parts of a URL.
+The tree basic parts of a URL are:
+The protocol
+The domain name
+The path
