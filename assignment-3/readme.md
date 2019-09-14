@@ -9,3 +9,4 @@
 #### A markup language uses tags to define elements which a computer can recognize and then use to manipulate text. Extensible Hyper Text Markup Language, or XHTML, is a markup language designed to combine both HTML and XML languages. While it is very similar to HTML, it is much stricter in coding requirements, which takes more time to write, but also helps make it easier to maintain.
 
 ### Images
+![Assignment-3 Screenshot](./images/watts-assignment-3-screenshot.png)
