@@ -1,0 +1,5 @@
+Despite how much I dislike reddit, I seem to spend a lot of time on the site, so using the Way Back Machine, I decided to look at the front page of Reddit from September 24th, 2005. While there still are some similarities, Reddit today looks much different than its past counterpart.
+
+Old Reddit had a very minimalistic design. The front page simply lists the top 25 user submitted links, a tool bar to sort those links by either upvotes or newest submissions, and a login/sign up box in the sidebar. Each hyperlink is accompanied by the submitting user’s username, the link’s submission time, and the amount of upvotes that link had received. Perhaps the most noticeable difference in old Reddit are the lack of comment sections and subreddits as these two features are large components of modern reddit.
+
+New Reddit is much flashier. Links can now contain images or auto-playing videos. Subreddits now exist and can all have distinct looks with banner images, or color themes besides the old school black and white. Comment sections are a part of every submission and are often more popular than the article, or video they pertain to.
