@@ -12,7 +12,9 @@ Old Reddit had a very minimalistic design. The front page simply lists the top 2
 New Reddit is much flashier. Links can now contain images or auto-playing videos. Subreddits now exist and can all have distinct looks with banner images, or color themes besides the old school black and white. Comment sections are a part of every submission and are often more popular than the article, or video they pertain to.
 
 #### Summarize your experience with the GIT Module. What did you learn? What was difficult, easy, or still misunderstood?
+In the GIT module, I learned the basics of HTML language and its importance in creating webpage structure. I originally learned about repositories and readme.mds in a previous coding class, but it was nice to review them again. I am fairly confident that I understood most of the materials presented so far. File structures need to be organized to ensure well working websites, the root directory should act as a suitcase for the entire website, and markup tags are used to distinguish what elements a computer will manipulate when rendering a webpage.
 
+One topic that I still don’t fully understand is how to properly use GitHub. I understand the benefits and logic behind using version control software, but when it comes time to fork from the master branch or merge changes, I am always a little hesitant and worried that I may be doing something wrong. This may be because I haven’t practiced using different versions or branches often enough.
 
 ### Image
 ![Assignment-4 Screenshot](./images/watts-assignment-4-screenshot.png)
