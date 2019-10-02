@@ -32,8 +32,8 @@
 
     <address>
       <h3>Come Visit Us At:</h3>
-        <p>Oltmannstr. 24 <br />
-        D 79100, Freiburg</p>
+        <p>Schusterstr. 17 <br />
+        D 79098, Freiburg</p>
       <h3>Or Email Us At:</h3>
         <p><a href="mailto: info@tee-peter-kaffee.de">
           info@tee-peter-kaffee.de</a></p>
@@ -74,8 +74,37 @@
         </tr>
       </table>
 
+    <hr />
 
+    <h3>Help Us Improve Our Services</h3>
+    <form action="http://www.example.com/feedback.php" method="post">
+      <fieldset>
+        <legend>
+          Your Review
+        </legend>
+        <lable>
+          <p>Location Visited:</p>
+          <input type="checkbox" name="location" value="physicalStoreOltmanstr24" /> Roasterie: Oltmanstr. 24
+          <input type="checkbox" name="location" value="physicalStoreSchusterstr17" /> Physical Store: Schusterstr. 17
+          <input type="checkbox" name="locatoin" value="onlineStore" /> Online Store
+        </lable>
+        <br />
+        <lable>
+          <p>Did you find everything you were looking for?</p>
+          <input type="radio" name="yes-no" value="yes" /> Yes
+          <input type="radio" name="yes-no" value="no" /> No
+        </lable>
+        <br />
+        <lable>
+          <p>If you weren't satisified, please leave a comment about why</p>
+          <textarea name="comments" cols="100" rows="5"> 500 Character Maximum</textarea>
+          <br / >
+            <button>
+              <img src="./images/coffee-beans.jpg" alt="Submit Review Button" width="50" height="50" />
+              Submit Review
+          <!-- <p><input type="submit" value="Submit Review" /></p> -->
+        </lable>
+      </fieldset>
+    </form>
   </body>
-
-
 </html>
