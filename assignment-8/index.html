@@ -33,7 +33,14 @@
         height: 120 px;
       }
 
-
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th { padding: 15px;
+      }
+      td { padding: 15px;
+      }
 
     </style>
 
@@ -59,14 +66,36 @@
     <div id="overview" class="container">
       <h2>Instructions Overview</h2>
       <p>Moka Pots are a quick and easy way to enjoy coffee. Following the instructions below will help you learn how easi it is to brew coffee using a moka pot.</p>
-      <div id="overview-list" class="list">
+      <table>
+        <tr>
+          <th>Instructions Overview</th>
+          <th>Necessary Equipment</th>
+        </tr>
+        <tr>
+          <td>Fill Moka Base with Water</td>
+          <td>A Moka Pot</td>
+        </tr>
+        <tr>
+          <td>Fill  Funnel with Ground Coffee</td>
+          <td>Boiling Water</td>
+        </tr>
+        <tr>
+          <td>Cook Until Bubbling</td>
+          <td>Ground Coffee Beans</td>
+        </tr>
+        <tr>
+          <td>Pour and Enjoy</td>
+          <td>A Constant Heat Source</td>
+        </tr>
+      </table>
+      <!--<div id="overview-list" class="list">
           <ol>
             <li>Fill Moka Base with Water</li>
             <li>Fill Moka Funnel with Ground Coffee</li>
             <li>Place Funnel in Base and Screw on Moka Top</li>
             <li>Cook Until Moka Pot Emits Gurgling Sound</li>
             <li>Pour and Enjoy</li>
-      </div> <!--End of List-->
+      </div> End of List-->
     </div> <!--End of Overview-->
 
     <div id="step-one" class="container">
