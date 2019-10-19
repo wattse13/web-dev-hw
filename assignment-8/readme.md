@@ -17,3 +17,18 @@ I am a little worried that things are going to ramp up in complexity. While I am
 *Free Response: Summarize your work cycle for this assignment.*
 
 As with all webpages, I began with the four main document elements -- `<html>, <head>, <title>, and <body>` --, and then added the four main meta elements inside the `<head>` element. The four main document elements add basic structure to my webpages and the four main meta elements describe the content of my webpages.
+
+Next, I began adding content and additional structure to the main page of my instructables website. To make styling my website easier and more consistent, I broke the content of my website down into different sections using `<div> and `<span>` tags. Nested `<div>` tags also allowed me to style elements within other elements.
+
+Positioning the pictures on my homepage was difficult. To position them, I gave them different class tags, that referred to different style elements in the header. While I was able to move pictures around, I was unable to successfully move captions along with them. Originally, I planned on displaying each picture’s source in a caption, but when I was unable to properly position each image’s caption, I had to resort to using the image title attribute to display where each image came from.
+
+In the spirit of making coffee more accessible, I decided to use a list format for displaying navigation links as screen readers can more easily access them than navigation links arranged horizontally.
+
+After creating my homepage’s content and structure, I began creating `<style>` elements in the header. By using `<style>` elements in the header, I was able to reference specific class attributes to style elements in certain ways. For example, each picture uses one of two alignment `<style>` elements and a size `<style>` element. I liked the look of the website we made in assignment seven, and I decided to use a similar container set-up as it separates individual sections nicely.
+
+As I wrote in a previous paragraph, while I was able to use `<style>` elements, positioning was still an issue. My images often overlapped other content, which meant I had to use many `<br />` tags to give everything enough space. Although it worked, I feel like there are better ways to position elements.
+
+I also was not always successful in using `<style>` elements to size pictures properly. For example, to get the right size I had to use width and height attributes in the first image on my homepage rather than a referenced `<style>` element.
+Once I had my content positioned mostly correctly, I decided to add some color. I went for a coffee theme, as the website I made is meant to display instructions for one method of coffee brewing.
+
+Now that I finished my homepage, I created and styled my about and contact pages. Compared to the home page, these pages were much more straight forward as they did not require too much complicated positioning work and I could re-use the `<style>` and `<div>` elements from my home page. In the about page, I embedded a YouTube video using the `<iframe>` element because I thought it would be nice to see a couple other coffee preparation methods. In the contact page, I used the `<form>` element to create a place where webpage visitors can type in and send feedback on my website.
