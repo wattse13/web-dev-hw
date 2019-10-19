@@ -32,14 +32,40 @@
         width: 70 px;
         height: 120 px;
       }
+      body {
+        background-color: #502A2A;
+        text-align: left;
+      }
+      .container {
+        background-color: #D9B1A3;
+        width: 600px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid black;
+      }
+      .header {
+        text-align: center;
+      }
+      .tip {
+        background-color: #BF8173;
+        width: 400px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid black;
+        header-align: center;
+        text-align: center;
+      }
+      h1 {
+        color: #D9B1A3;
+      }
     </style>
 
   </head>
 
   <body>
-    <h1>About</h1>
+    <span class="header"><h1>About</h1></span>
     <hr />
-    <div id="about-navigation" class="container"
+    <div id="about-navigation" class="container header"
       <nav id="about-main-menu">
         <ul>
           <li><a href="./index.html">Home</a></li>
@@ -64,7 +90,9 @@
       <iframe width="560" height="315" src="https://www.youtube.com/embed/6yItCQB4V9A" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div> <!--End of Other-Methods-->
 
-    (<a href="#">Back to Top</a>)
+    <br />
+
+    <div class="container header">(<a href="#">Back to Top</a>)</div>
 
   </body>
 
