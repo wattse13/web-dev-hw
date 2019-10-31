@@ -34,12 +34,16 @@
   width: 600px;
   height: 400px;
   background-color: rgb(5, 219, 242, 0.9);
-}
-
-body {
   text-align: center;
+  font-family: sans-serif;
 }
 
-* {
-  font-family: sans-serif;
+h1 {
+  color: #F22786;
+  font-size: 40px;
+}
+
+h3 {
+  color: #F22786;
+  font-size: 20px;
 }
