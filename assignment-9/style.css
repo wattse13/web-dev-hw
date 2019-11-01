@@ -1,5 +1,8 @@
 /*Style Sheet for my 1980s Color Website*/
 
+/*Fixes div position relative to viewport. Image will remain in place even if the user scrolls through the webpage.*/
+/*Image is placed 50% beyond the left and right side of viewport to ensure no white spaces are left on the browser window sides*/
+/*Image size is set to 100% width and height of original image*/
 #backgroundImage {
   position: fixed;
   top: -50%;
@@ -8,6 +11,9 @@
   height: 100%;
 }
 
+/*Places image within fixed position of div element from previous CSS element*/
+/*Absolute position is set by top, left, right, and bottom.*/
+/*min-width and min-height ensure image remains at full size*/
 #backgroundImage img {
   position: absolute;
   top: 0;
@@ -15,8 +21,8 @@
   right: 0;
   bottom: 0;
   margin: auto;
-  min-width: 50%;
-  min-height: 50%;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 #neonSign {
