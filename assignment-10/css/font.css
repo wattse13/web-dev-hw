@@ -9,6 +9,10 @@
   vertical-align: middle;
 }
 
+.hidden {
+  text-indent: -9999px;
+}
+
 #mainContent, #moreInfo {
 font-family: courier-std, monospace;
 font-weight: 700;
@@ -16,20 +20,24 @@ font-style: normal;
 body: 100%;
 line-height: 135%;
 }
+
 #mainContent p:first-child::first-letter {
   font-family: 'courier-std', monospace;
   font-size: 200%;
   font-weight: bold;
 }
+
 #mainContent p:first-child::first-line {
   font-size: 100%;
   color: #736520;
 }
+
 #titleContent {
   /*font-family: sans-serif;*/
   h1: 200%;
   h3: 112.5%;
-}
+  }
+
 @font-face {
   font-family: 'carbontype';
    src: url('../fonts/carbontype/carbontype.eot') format('embedded-opentype'); /*IE9+ Compat Modes*/
@@ -44,7 +52,7 @@ line-height: 135%;
 #mainTitle {
   font-family: 'carbontype', 'Rockwell', 'Baskerville', serif;
   font-weight: normal;
-  
+
 }
 .subHeading {
   font-family: 'Montserrat', sans-serif;
