@@ -17,6 +17,7 @@ Web-safe fonts operate similarly to web fonts but are more consistently found on
 Different operating systems, like Mac and Windows, come with different available fonts. If a developer choses a font that is not available on the end user’s computer, then the developer’s website may not display correctly. Including fallback fonts or a font stack helps developers control how their website will look if the font they originally planned on using is not available on some end users’ computers. For example, if Merriweather is not available on a user’s computer, including `serif`, or a different font in the serif family, will ensure the font the end user’s computer replaces the missing font with still works within the developer’s intended typography landscape.
 
 *Free Response: Summarize your work cycle for this assignment.*
+
 I began by creating my web page’s basic structure, by adding four elements of meta information, and by linking two CSS style sheets – one for fonts and one for general style. I chose to link two style sheets within the `head` element to get in the habit of separating font style elements from more general style elements.
 
 In the body element I used `div’s` to break my content up into sections. I assigned most `div` elements the class `container` so that I could later select for those elements in the `css.style` sheet and give them a consistent style.
