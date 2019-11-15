@@ -1,0 +1,86 @@
+#navigationMenu {
+  position: fixed;
+  width: 100%;
+  float: right;
+}
+.navItem {
+  display: inline-block;
+  background-color: #FFFBD4;
+  font-family: sans-serif;
+  font-size: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0.5%;
+  padding: 0.5%;
+}
+#siteLogo {
+  border-radius: 10%;
+  border: 5px solid black;
+  float: left;
+}
+.building {
+  position: absolute;
+}
+.building img {
+  width: 120px;
+  height: 120px;
+}
+#building1 {
+  top: 15%;
+  left: 75%;
+}
+#hidden1{
+  display: none;
+  font-size: 100%;
+  font-style: bold;
+  padding: 0.5%;
+}
+.building:hover #hidden1 {
+    display: inline-block;
+}
+#building2 {
+  top: 100%;
+  right: -50%
+}
+#hidden2{
+  display: none;
+  font-size: 100%;
+  font-style: bold;
+  padding: 0.5%;
+}
+.building:hover #hidden2 {
+    display: inline-block;
+}
+#building3 {
+  top: 200%;
+  left: 75%;
+}
+#hidden3{
+  display: none;
+  font-size: 100%;
+  font-style: bold;
+  padding: 0.5%;
+}
+.building:hover #hidden3 {
+    display: inline-block;
+}
+#building4 {
+  top: 100%;
+  left: 15%;
+}
+#hidden4{
+  display: none;
+  font-size: 100%;
+  font-style: bold;
+  padding: 0.5%;
+}
+.building:hover #hidden4 {
+    display: inline-block;
+}
+#backgroundImg {
+  position: absolute;
+}
+#backgroundImg img {
+  width: 200%;
+  height: 200%;
+}
