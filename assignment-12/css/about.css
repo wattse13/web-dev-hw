@@ -6,7 +6,23 @@ body {
   background-color: #F0F2F2;
   width: 500px;
   padding: 20px;
-  text-align: center;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+#theBlock {
+  display: block;
+  width: 410px;
+  height: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#notNav {
+  position: relative;
+  top: 75px;
+}
+.siteTitle {
+  width: 500px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -49,17 +65,4 @@ a:visited {
     margin: 0;
     padding: 0.5em;
     min-width: 7em;
-}
-#notNav {
-  position: relative;
-  top: 75px;
-}
-.siteTitle {
-  width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-}
-#siteTitleBottom {
-  text-align: right;
-  width: 500px;
 }
