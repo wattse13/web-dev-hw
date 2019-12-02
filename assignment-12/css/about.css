@@ -26,6 +26,9 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+p {
+  overflow: scroll;
+}
 #navBar {
   position: fixed;
   left: 0;
@@ -40,8 +43,8 @@ body {
 }
 .menuItem {
   display: inline-block;
-  margin-left: 2.1em;
-  margin-right: 2.1em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 a:hover {
   background-color: #BFA3A3;
