@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Eli Watts Web Design Sect. 50 Assignment 10</title>
+
+      <!-- meta elements -->
+      <meta charset="utf-8">
+      <meta name="description" content="Final CSS Website, Home Page">
+      <meta name="author" content="Eli Watts">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="stylesheet" type="text/css" href="./css/font.css">
+      <link rel="stylesheet" type="text/css" href="./css/index.css">
+
+  </head>
+
+  <body>
+
+    <div id="navBar">
+        <div class="menuItem"><a href="./index.html">Home</a></div>
+        <div class="menuItem dropdown"><a href="./gallery.html">Gallery</a>
+          <div class="dropItemContent">
+             <div class="dropItem"><a href="https://www.theonion.com/">Objective Truth</a></div>
+             <div class="dropItem"><a href="https://libraryofbabel.info/">Library of EVERYTHING</a></div>
+             <div class="dropItem"><a href="http://www.elsewhere.org/pomo/">Algorhithmic Stories</a></div>
+          </div>
+        </div>
+        <div class="menuItem"><a href="./about.html">About</a></div>
+        <div class="menuItem"><a href="./contact.html">Contact</a></div>
+    </div><!--End of Nav Bar Section-->
+
+    <div id="contactForm" class="homeContainer">
+      <form action="http://www.example.com/review.php" method="get">
+      <fieldset>
+        <legend>Can't Write? Wanna Talk About it?</legend>
+        <p>Tell Me Why,</p>
+        <textarea name="comments" cols="50" rows="10" placeholder="In 500 Characters Or Less"></textarea>
+        <p>Is Writing a Comment Too Difficult? Why Not Chose an Item From The Menu Below.</p>
+        <select name="reasons" size="4" multiple="multiple">
+           <option value="No Time">No Time</option>
+           <option value="No Inspiration">No Inspiration</option>
+           <option value="No Energy">No Energy</option>
+           <option value="I'm Very Likely Depressed" selected="selected">I'm Very Likely Depressed</option>
+       </select>
+        <p>Was This Website Helpful?<input type="radio" name="satisfaction" value="yes" />Yes
+        <input type="radio" name="satisfaction" value="no" />No
+        <input type="radio" name="satisfaction" value="sort-of?" />Is That a Serious Question?</p>
+       <button>
+         <img src="./images/imgholdr-button.png" alt="Submit Review Button" width="50" height="50" />
+         Submit Review
+      </fieldset>
+    </div><!--End of Contact Form Section-->
+  </body>
+
+</html>
