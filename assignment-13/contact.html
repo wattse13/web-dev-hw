@@ -31,25 +31,30 @@
         </div>
     </div><!--End of Nav Bar Section-->
 
-    <div id="contactForm" class="homeContainer">
+    <div id="contactForm" class="notNav">
+      <div id="contactTitle">
+        <h1>Contact</h1>
       <form action="http://www.example.com/review.php" method="get">
       <fieldset>
-        <legend>Can't Write? Wanna Talk About it?</legend>
-        <p>Tell Me Why,</p>
+        <legend>Got a Question, a Comment, a Concern?</legend>
+        <p>Tell Me About It,</p>
         <textarea name="comments" cols="50" rows="10" placeholder="In 500 Characters Or Less"></textarea>
-        <p>Is Writing a Comment Too Difficult? Why Not Chose an Item From The Menu Below.</p>
-        <select name="reasons" size="4" multiple="multiple">
-           <option value="No Time">No Time</option>
-           <option value="No Inspiration">No Inspiration</option>
-           <option value="No Energy">No Energy</option>
-           <option value="I'm Very Likely Depressed" selected="selected">I'm Very Likely Depressed</option>
-       </select>
-        <p>Was This Website Helpful?<input type="radio" name="satisfaction" value="yes" />Yes
+        <p>Did You Like What You Saw?<input type="radio" name="satisfaction" value="yes" />Yes
         <input type="radio" name="satisfaction" value="no" />No
-        <input type="radio" name="satisfaction" value="sort-of?" />Is That a Serious Question?</p>
-       <button>
+        <input type="radio" name="satisfaction" value="sort-of?" />Yeah, Sorta</p>
+        <p>Have a Favorite Project?</p>
+        <select name="reasons" size="7" multiple="multiple">
+           <option value="Nah" selected="selected">Nah</option>
+           <option value="Nice Guy">Nice Guy</option>
+           <option value="Tooth Ache">Tooth Ache</option>
+           <option value="Gross Strawberry">Gross Strawberry</option>
+           <option value="Moody Acorn">Moody Acorn</option>
+           <option value="The Anthropologist">Billion Dollar Spell Industry</option>
+           <option value="Work in Progress">Work in Progress</option>
+       </select>
+       <p><button>
          <img src="./images/imgholdr-button.png" alt="Submit Review Button" width="50" height="50" />
-         Submit Review
+         Submit Review</p>
       </fieldset>
     </div><!--End of Contact Form Section-->
   </body>

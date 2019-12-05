@@ -1,0 +1,13 @@
+#navBar, .notNav, .container, h3{
+  font-family: courier-std, monospace;
+  font-weight: 700;
+  font-style: normal;
+  body: 100%;
+  line-height: 135%;
+  color: #402E2C;
+}
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  line-height: 70%
+}
